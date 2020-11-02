@@ -10,28 +10,31 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-  
-  .login {
+
+  &.login {
     background-color: $color-button-success;
+    &::hover{
+      background-color: $color-orange;
+    }
   }
 
-  .default {
+  &.default {
     background-color: $color-button-default;
   }
   
-  .error {
+  &.error {
     background-color: $color-button-error;
   }
   
-  .info {
+  &.info {
     background-color: $color-button-info;
   }
   
-  .success {
+  &.success {
     background-color: $color-button-success;
   }
   
-  .warning {
+  &.warning {
     background-color: $color-button-warning;
   }
 }
