@@ -9,42 +9,42 @@
   &.login {
     background-color: $color-button-success;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-success, 13%);
     }
   }
 
   &.default {
     background-color: $color-button-default;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-default, 13%);
     }
   }
   
   &.error {
     background-color: $color-button-error;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-error, 13%);
     }
   }
   
   &.info {
     background-color: $color-button-info;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-info, 13%);
     }
   }
   
   &.success {
     background-color: $color-button-success;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-success, 13%);
     }
   }
   
   &.warning {
     background-color: $color-button-warning;
     &:hover{
-      @include hover-style;
+      background-color: lighten($color-button-warning, 13%);
     }
   }
 }

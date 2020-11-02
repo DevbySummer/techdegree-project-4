@@ -411,55 +411,37 @@ a {
   background-color: #63cc82;
 }
 .btn.login:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #95dcaa;
 }
 .btn.default {
   background-color: #51ddfc;
 }
 .btn.default:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #92eafd;
 }
 .btn.error {
   background-color: #e4757a;
 }
 .btn.error:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #efacaf;
 }
 .btn.info {
   background-color: #927bc1;
 }
 .btn.info:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #b7a8d6;
 }
 .btn.success {
   background-color: #63cc82;
 }
 .btn.success:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #95dcaa;
 }
 .btn.warning {
   background-color: #fd7856;
 }
 .btn.warning:hover {
-  background-color: #fff;
-  color: #777;
-  border: 1px solid #f17300;
-  border-radius: 4px;
+  background-color: #feac98;
 }
 
 /* ============================================= */
