@@ -468,17 +468,19 @@ a {
 .form {
   flex-basis: 100%;
 }
-
-.input {
+.form .input {
   display: block;
   width: 94%;
   margin: 10px auto 0;
   border: none;
   padding: 10px;
   border-bottom: 5px solid #3e7cb1;
+  transition: border 0.2s;
 }
-
-.hidden {
+.form .input:hover {
+  border-bottom: 5px solid #f17300;
+}
+.form .hidden {
   position: absolute;
   left: -10000px;
   top: auto;

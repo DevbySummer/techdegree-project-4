@@ -4,7 +4,7 @@
 
 .form {
     flex-basis: 100%;
-  }
+  
   
   .input{
     display: block;
@@ -13,6 +13,11 @@
     border: none;
     padding: 10px;
     border-bottom: 5px solid $color-primary;
+    transition: border .2s;
+      &:hover
+      {
+        border-bottom: 5px solid $color-orange;
+      }
   }
   
   .hidden {
@@ -23,3 +28,4 @@
     height:1px;
     overflow:hidden;
   }
+}
