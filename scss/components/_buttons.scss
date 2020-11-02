@@ -10,8 +10,11 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-  }
   
+  .login {
+    background-color: $color-button-success;
+  }
+
   .default {
     background-color: $color-button-default;
   }
@@ -31,3 +34,4 @@
   .warning {
     background-color: $color-button-warning;
   }
+}

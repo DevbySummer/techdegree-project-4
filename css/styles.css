@@ -406,24 +406,22 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
+.btn .login {
   background-color: #63cc82;
 }
-
-.warning {
+.btn .default {
+  background-color: #51ddfc;
+}
+.btn .error {
+  background-color: #e4757a;
+}
+.btn .info {
+  background-color: #927bc1;
+}
+.btn .success {
+  background-color: #63cc82;
+}
+.btn .warning {
   background-color: #fd7856;
 }
 
