@@ -3,38 +3,48 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $color-white;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+  @include btn;
+  @include hover-transition;
 
   &.login {
     background-color: $color-button-success;
-    &::hover{
-      background-color: $color-orange;
+    &:hover{
+      @include hover-style;
     }
   }
 
   &.default {
     background-color: $color-button-default;
+    &:hover{
+      @include hover-style;
+    }
   }
   
   &.error {
     background-color: $color-button-error;
+    &:hover{
+      @include hover-style;
+    }
   }
   
   &.info {
     background-color: $color-button-info;
+    &:hover{
+      @include hover-style;
+    }
   }
   
   &.success {
     background-color: $color-button-success;
+    &:hover{
+      @include hover-style;
+    }
   }
   
   &.warning {
     background-color: $color-button-warning;
+    &:hover{
+      @include hover-style;
+    }
   }
 }

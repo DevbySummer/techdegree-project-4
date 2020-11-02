@@ -3,3 +3,29 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@mixin hover-transition
+{
+    transition: 
+      background-color .2s ease-in-out, 
+      color .2s ease-in-out;
+}
+
+@mixin hover-style
+{
+    background-color: $color-white;
+    color: $color-font-primary;
+    border: 1px solid $color-orange;
+    border-radius: 4px;
+}
+
+@mixin btn
+{
+    margin-top: 15px;
+    width: 100%;
+    color: $color-white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
