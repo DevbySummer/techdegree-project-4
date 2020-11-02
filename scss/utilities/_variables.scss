@@ -1,8 +1,8 @@
 // Variable colors
 
 $color-primary: #3e7cb1;
-$color-primary-light: #81a4cd;
-$color-primary-dark: #054a91;
+$color-primary-light: lighten(#3e7cb1, 30%);
+$color-primary-dark: darken(#3e7cb1, 30%);
 $color-grey: #dbe4ee;
 $color-orange: #f17300;
 $color-white: #fff;
